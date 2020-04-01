@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Murillo Isidoro de Medeiros">
+    <link rel="stylesheet" href="_css/style.css">
+    <title>Cálculo de IMC</title>
+</head>
+<body>
+    <main class="conteudo">
+        <div id="imc" class="imc">
+            <h1>Cálculo de IMC</h1>
+
+            <label for="#name">seu nome:</label>
+            <input type="text" id="name">
+            <label for="#height">altura: (ex.: 1.82)</label>
+            <input type="number" id="height">
+            <label for="#weight">peso: (ex.: 64.7)</label>
+            <input type="number" id="weight">
+
+            <button class="button-calq" onclick="calcular()">calcular</button>
+
+            <div id="result">
+                <p>
+                    <img src="_imagens/image.png" alt="Imagem de pessoa com os pés em uma balança">
+                    IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa. índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.
+                </p>
+            </div>
+        </div>
+    </main>
+    <script src="_javascript/function.js"></script>
+</body>
+</html>
