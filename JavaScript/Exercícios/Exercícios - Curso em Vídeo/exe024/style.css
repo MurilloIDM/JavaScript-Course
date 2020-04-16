@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(39, 172, 39);
+    color: white;
+    text-align: center;
+    font: normal 20pt Arial;
+}
+
+h1 {
+    border-bottom: solid 4px white;
+    display: inline-block;
+}
+
+section {
+    background-color: white;
+    color: black;
+    margin: auto;
+    width: 500px;
+    padding: 2px;
+    border-radius: 10px;
+    font-size: 16pt;
+    box-shadow: 5px 5px 5px;
+}
+
+input {
+    text-align: center;
+}

@@ -1,0 +1,13 @@
+> EVENTOS NO DOM (Document Object Model)
+- evento é tudo o que possa acontecer com qualquer elemento
+- mais comum: eventos de mouse (mouseenter, mousemove, mousedown, mouseup, click, mouseout)
+- os eventos podem ser configurados na parte do HTML ou do JS, fica a sua escolha
+
+> FUNÇÃO EM JS
+- conjunto de código que vão ser executadas só quando o evento ocorrer.
+- ao programa um BLOCO, eles vão ser executados apenas quando o evento necessariamente ocorrer.
+- um BLOCO em JS é delimitado em chaves {} com 'function' antes.
+- é preciso dar um nome, sendo o nome da ação que vai acontecer seguido por parenteses e dentro deles pode haver alguns parametros.
+
+> CURIOSIDADES
+- quando houver algum erro na execução, podemos abrir o console no navegador.

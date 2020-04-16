@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(42, 42, 129);
+    color: white;
+    font: normal 20pt Arial;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    color: black;
+    font-size: 16pt;
+    width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    padding: 5px;
+}
+
+#secbox {
+    width: 160px;
+}
+
+input {
+    text-align: center;
+    font-size: 12pt;
+}

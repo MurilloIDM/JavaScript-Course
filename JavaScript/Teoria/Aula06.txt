@@ -1,0 +1,22 @@
+> TRATAMENTO DE DADOS
+ - (+) pode ser usado para concatenação e para adição
+
+> CONVERSÃO (STRING > NUMBER)
+- Number.parseInt(n) //número inteiro
+- Number.parseFloat(n) //número real
+- Number(n) //número a qual ele vai decidir de acordo com o valor de entrada
+
+> CONVERSÃO (NÚMERO > STRING)
+- String(n)
+- n.toString( ) 
+
+> FORMATAÇÃO DE STRINGS
+- utilização da crase para delimitação do template string (${})
+- n.length //tamanho
+- n.toUpperCase() // Maiúsculas
+- n.toLowerCase() //Minúsculas
+
+> FORMATAÇÃO DE NÚMEROS
+- n.toFixed(quantidade de casas)
+- .replace('isso' , 'por isso') //trocar algo por outro, tipo um (.) por uma (,)
+- n.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) //Localizar uma string para o Brasil com estilo em dinheiro Brasil-Real

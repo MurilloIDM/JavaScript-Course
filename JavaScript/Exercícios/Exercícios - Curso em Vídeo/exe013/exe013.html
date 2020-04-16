@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercício 013</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div id="resu">
+            <p>Ano de Nascimento: 
+                <input type="number" name="txtano" id="ano" min="0" placeholder="Digite Aqui">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="sex" id="masculino" checked>
+                <label>Masculino</label>
+                <input type="radio" name="sex" id="feminino">
+                <label>Feminino</label>
+            </p>
+            
+            <input type="button" value="Confirmar" onclick="confirmar()">
+            <p id="resultado">Pressione o botão para verificar. Uma imagem será exibida em seguida!</p>
+        </div>
+    </section>
+    <footer>
+        <p>&COPY; dev.midm</p>
+    </footer>
+
+
+    <script src="exe012.js"></script>
+</body>
+</html>

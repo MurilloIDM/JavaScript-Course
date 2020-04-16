@@ -1,0 +1,21 @@
+> OPERADORES DO JS
+- Aritméticos
+- Atribuição
+- Relacionais
+- Lógicos
+- Ternário
+
+> ARITMÉTICOS (operadores binários)
+-> (+) Adição
+-> (-) Subtração
+-> (*) Multiplicação
+-> (/) Divisão real
+-> (%) Resto 
+-> (**) Potência (Surgiu no ECMAScript)
+
+> ORDEM DE PRECEDÊNCIA
+- ( ) > ** > (*, /, %) > (+, -)
+
+> ATRIBUIÇÃO
+-> (=) - recebe
+

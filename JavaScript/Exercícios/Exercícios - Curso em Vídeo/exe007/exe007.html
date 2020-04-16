@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercício 007</title>
+    <style>
+        body {
+            font: normal 20pt Arial;
+            text-align: center;
+            background-color: red;
+            color: white;
+        }
+
+        input {
+            font-size: 18pt;
+            text-align: center;
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cálculo de Salário</h1>
+    <p id="nome">Nome: Indefinido</p>
+    <p id="id">Número: Indefinido</p>
+    <input type="number" id="txtn1" placeholder="Horas Trabalhadas">
+    <input type="number" id="txtn2" placeholder="Salário por Hora">
+    <input type="button" value="Calcular" onclick="calcular()">
+    <p id="resultado">O resultado será exibido aqui...</p>
+
+    <script>
+        var nome = window.prompt('Qual seu nome completo?')
+        var number = window.prompt('Qual seu número de identificação?')
+        document.getElementById('nome').innerHTML = `Nome: ${nome}`
+        document.getElementById('id').innerHTML = `Número de identificação: ${number}`
+
+        function calcular() {
+            var tx1 = document.getElementById('txtn1')
+            var tx2 = document.getElementById('txtn2')
+            var res = document.getElementById('resultado')
+
+            var n1 = Number(tx1.value)
+            var n2 = Number(tx2.value)
+            var salário = n1 * n2
+
+            res.innerHTML = `O seu salário será de R$ ${salário.toFixed(2)}!`
+        }
+    </script>
+    
+</body>
+</html>

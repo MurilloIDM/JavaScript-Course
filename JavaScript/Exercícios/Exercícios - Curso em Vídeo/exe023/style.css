@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(18, 18, 90);
+    color: white;
+    font: normal 18pt Arial;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    color: black;
+    width: 500px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+}
+
+input {
+    text-align: center;
+}
+
+

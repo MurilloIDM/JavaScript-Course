@@ -1,0 +1,29 @@
+body {
+    background: url(/Exercícios/exe027/wallapaper.jpg);
+    background-size: cover;
+    color: black;
+    font: normal 16pt Arial;
+    margin: 70px;
+}
+
+div {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    width: 500px;
+    margin: auto;
+
+}
+
+a {
+    border: solid 3px black;
+    font-size: 10px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}

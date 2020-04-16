@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(67, 67, 230);
+    color: white;
+    font: normal 20pt Arial;
+    text-align: center;
+}
+
+#dados {
+    background-color: white;
+    color: black;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+}
+
+#resultado {
+    background-color: white;
+    color: black;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+    margin-top: 20px;;
+}

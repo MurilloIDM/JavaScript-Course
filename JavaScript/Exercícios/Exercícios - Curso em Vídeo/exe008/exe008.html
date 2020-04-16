@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercício 008</title>
+    <style>
+        body {
+            background-color: rgb(11, 132, 189);
+            font: normal 20pt Arial;
+            text-align: center;
+        }
+
+        h1 {
+            text-transform: uppercase;
+        }
+
+        .texto {
+            font-size: 18pt;
+            display: block;
+            position: relative;
+            left: 525px;
+            text-align: center;
+        }
+
+        #secbox {
+            position: relative;
+            top: 10px;
+            font-size: 18pt;
+        }
+
+        #button {
+            font-size: 18px;
+            position: relative;
+            width: 49px;
+            height: 30px;
+            top: 6px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Calculado uma área de um sólido</h1>
+    <input type="number" class="texto" id="txtn1" placeholder="Valor A">
+    <input type="number" class="texto" id="txtn2" placeholder="Valor B">
+    <input type="number" class="texto" id="txtn3" placeholder="Valor C">
+
+    <select id="secbox">
+        <option>Selecione</option>
+        <option value="tr">Triângulo Retângulo</option>
+        <option value="cc">Círculo</option>
+        <option value="tp">Trapézio</option>
+        <option value="qd">Quadrado</option>
+        <option value="rt">Retângulo</option>
+    </select>
+
+    <input type="button" id="button" value="Ok" onclick="calcular()">
+
+    <p id="resultado">O resultado será exibido aqui...</p>
+
+    <script src="xe008.js"></script>
+</body>
+</html>

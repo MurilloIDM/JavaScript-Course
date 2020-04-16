@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="exe014.css">
+    <title>Exercício 014</title>
+</head>
+<body onload="play()">
+    <header>
+        <h1>PEDRA - PAPEL - TESOURA</h1>
+    </header>
+    <section id="menu">
+        Sua opção:
+        <select id="secbox">
+            <option>Selecione</option>
+            <option>Pedra</option>
+            <option>Papel</option>
+            <option>Tesoura</option>
+        </select>
+        <input type="button" value="Jogar" id="button" onclick="jogar()">
+        <p>Faça uma boa escolha! Boa sorte Jogador... :D</p>
+    </section>
+    <section id="jogo">
+        <div class="res">
+            <p id="nome">USUÁRIO</p>
+            <img id="img1" src="img.jpg">
+            <p id="res-jog">Você: UNDEFINED</p>
+        </div>
+        <div class="res">
+            <p>COMPUTADOR</p>
+            <img id="img2" src="img.jpg">
+            <p id="res-pc">Você: UNDEFINED</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; dev.midm</p>
+    </footer>
+    <script src="exe014.js"></script>
+</body>
+</html>

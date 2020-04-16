@@ -1,0 +1,18 @@
+> TIPOS DE DADOS E VARIÁVEIS
+- No JS moderno, além de utilizar a palavra var, também podemos usar a palavra let.
+- Identificadores:
+	1. Podem começar com letra, $ ou _
+	2. Não podem começar com números
+	3. É possível usar letras ou números
+	4. É possível usar centos e símbolos
+	5. Não podem conter espaços
+	6. Não podem ser palavras reservadas
+- Os Data Types primitivos iniciais: number, string, boolean
+ 
+> DICAS
+- comentários: (// - única linha) ou (/* mais de uma linha*/)
+- 'Typeof' funciona para ver o tipo primitivo
+
+> DICAS PARA INDICADORES
+- Maiúsculas e minúsculas fazem a diferença
+- Usem nomes coerentes para variáveis

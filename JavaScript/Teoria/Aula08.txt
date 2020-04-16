@@ -1,0 +1,27 @@
+> OPERADORES PARTE 2
+
+> RELACIONAIS
+- (>) maior
+- (<) menor
+- (>=) maior ou igual
+- (<=) menor ou igual
+- (==) igual (vale para todos os tipos)
+- (!=)  diferente
+
+> IDENTIDADE:
+- (===) igual restrito: verificar se são do mesmo valor e mesmo tipo
+- (!==) diferente restrito: verificar se são diferente mais avaliando o mesmo tipo
+
+> LÓGICOS
+- (!) - negação
+- (&&) - conjunção (E)
+- (||) - disjunção (OU)
+
+> PRECEDÊNCIA
+- Aritméticos > Relacionais > Lógicos (NÃO, E, OU)
+
+> TERNÁRIO
+- teste ? true : false
+- true: O que vai acontecer se o teste der verdadeiro
+- false: O que vai acontecer se o teste der falso
+- exemplo: (média >= 7.0 ? 'Aprovado' : 'Reprovado')

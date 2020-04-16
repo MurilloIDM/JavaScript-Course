@@ -1,0 +1,42 @@
+body {
+    font: normal 12pt Arial;
+    text-align: center;
+    color: white;
+    background-color: rgb(37, 37, 122);
+}
+
+#nome {
+    text-transform: uppercase;
+}
+
+#menu {
+    background-color: white;
+    box-shadow: 3px 3px 3px;
+    padding: 10px;
+    font-size: 18px;
+    color: black;
+    border-radius: 10px;
+    text-align: left;
+    margin: auto;
+    width: 400px;
+    height: 70px;
+}
+
+#jogo {
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.res {
+    width: 250px;
+    height: 300px;
+    border: solid 3px white;
+    border-radius: 10px;
+    display: inline-block;
+    margin: auto;
+}
+
+img {
+    width: 150px;
+}
