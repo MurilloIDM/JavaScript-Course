@@ -1,9 +1,11 @@
 # JavaScript Course
 
+Repositório para acompanhamento pessoal da evolução na linguagem. Abaixo possui alguns cursos que já utilizei ou pretendo utilizar, além do livro algo já uso com uma das bases mais a própria documentação da linguagem que, atualmente é minha maior fonte de consulta e estudos.
+
 Base de estudos:
 
 - Cursos:
-    - [DONE] Curso JavaScript - Curso em Vídeo: https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1
+    - [DONE] Curso JavaScript - Curso em Vídeo: encurtador.com.br/pBJ02
     - [DONE] Intro to JavaScript: https://www.udacity.com/course/intro-to-javascript--ud803
     - [DOING] Object-Oriented JavaScript: https://www.udacity.com/course/object-oriented-javascript--ud711
     - [TO DO THIS] JavaScript and the DOM: https://www.udacity.com/course/javascript-and-the-dom--ud117
