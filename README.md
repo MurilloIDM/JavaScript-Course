@@ -1,6 +1,6 @@
 # JavaScript Course
 
-Repositório para acompanhamento pessoal da evolução na linguagem. Abaixo possui alguns cursos que já utilizei ou pretendo utilizar, além do livro algo já uso com uma das bases mais a própria documentação da linguagem que, atualmente é minha maior fonte de consulta e estudos.
+Repositório para acompanhamento pessoal da evolução na linguagem. Abaixo possui alguns cursos que já utilizei ou pretendo utilizar, além do livro, referência que já uso como uma das bases e mais a própria documentação da linguagem que, atualmente é minha maior fonte de consulta e estudos.
 
 Base de estudos:
 
