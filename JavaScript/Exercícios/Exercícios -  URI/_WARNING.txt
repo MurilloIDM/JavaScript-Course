@@ -1,0 +1,7 @@
+Os exercícios no URI ainda estão com uma fase BETA para resoluções em nodeJS, por isso, as atividades abaixo
+foram feitas e testadas, mas não enviadas para a plataforma.
+
+Não tente enviar elas direto da plataforma. Caso haja tentativa, o sistema do URI ira retornar um erro de 100%.
+
+Estou utilizando aqui, um módulo para entrada de dados via prompt.
+Bons estudos!
