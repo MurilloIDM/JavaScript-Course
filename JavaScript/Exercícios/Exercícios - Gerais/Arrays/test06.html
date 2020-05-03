@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test 06</title>
+    <style>
+        body {
+            margin: 15px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: start;
+            align-content: start;
+        }
+
+        div {
+            width: 50px;
+            height: 50px;
+            border-radius: 5px;
+            border: 1px solid black;
+            margin: 0 10px 10px 0;
+            line-height: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body id="body">
+    <script>
+        let N = Number(prompt('Digite a quantidade de números: '));
+        let body = document.getElementById('body');
+
+
+        for(let i = 1; i <= N; i = i + 1) {
+            let div = document.createElement('div');
+            div.textContent = i;
+
+            if (i % 2 == 0) {
+                div.style.backgroundColor = 'blue';
+            } else {    
+                div.style.backgroundColor = 'red';
+            }
+
+            let contador = 0;
+            for(let c = i; c >= 1; c--) {
+                if (i % c == 0) {
+                    contador += 1;
+                }
+            }
+
+            if (contador == 2) {
+                div.style.backgroundColor = 'green';
+            }
+
+            body.append(div);
+        }
+        
+
+
+    </script>
+</body>
+</html>
