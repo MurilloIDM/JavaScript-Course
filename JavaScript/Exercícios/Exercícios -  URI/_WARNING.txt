@@ -2,6 +2,9 @@ Os exercícios no URI ainda estão com uma fase BETA para resoluções em nodeJS
 foram feitas e testadas, mas não enviadas para a plataforma.
 
 Não tente enviar elas direto da plataforma. Caso haja tentativa, o sistema do URI ira retornar um erro de 100%.
+O Sistema da Plataforma URI tem um clara e específica forma de entrada de dados, por isso, caso esteja tentando enviar as mesmas resoluções, pare. 
+
+Compreenda a resolução e aplique na sua solução, formatando ela de acordo com o pedido do URI.
 
 Estou utilizando aqui, um módulo para entrada de dados via prompt.
 Bons estudos!
