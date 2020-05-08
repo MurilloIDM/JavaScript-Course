@@ -1,13 +1,17 @@
 //Esse código é criado com base no código presente na documentação da Mozilla
-function createNewPerson(name) {
-    const obj = {};
-    obj.name = name;
-    obj.greeting = function() {
-        console.log('Hi! I\'m ' + obj.name + '.');
-    }
-    return obj;
+
+//A função construtura é a versão do JS de uma classe.
+function Person(name) {
+    this.name = name;
+    this.greeting = function() {
+        console.log('Hi! I\'m ' + this.name + '.');
+    };
 }
 
-const murillo = createNewPerson('Murillo');
-console.log(murillo.name);
-murillo.greeting();
+let person1 = new Person('Bob');
+let person2 = new Person('Sarah');
+
+
+person1.greeting();
+person2.greeting();
+
