@@ -3,12 +3,12 @@
         {
             "name": "Murillo",
             "age": "18",
-            "work": "programmer"
+            "work": "programador"
         },
         {
             "name": "Beatriz",
             "age": "20",
-            "work": "adovgance"
+            "work": "juiza"
         }
     ]
 }

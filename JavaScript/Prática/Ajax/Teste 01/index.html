@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudar sobre Ajax</title>
+    <style>
+
+        .profiles {
+            border: 1px solid black;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+
+    <main id="conteudo">
+
+    </main>
+
+    <script>
+        var xhr = new XMLHttpRequest();
+
+        xhr.onload = function() {
+            console.log('entrou');
+            if (xhr.status == 200) {
+                responseObject = JSON.parse(xhr.responseText);
+
+                console.log(responseObject);
+
+                var newContent = '';
+                for (var i = 0; i < responseObject.profiles.length; i++) {
+
+                    newContent += '<div class="profiles">';
+                    newContent += '<p>O meu nome é ' + responseObject.profiles[i].name;
+                    newContent += ', tenho ' + responseObject.profiles[i].age + ' anos e atualmente ';
+                    newContent += 'sou ' + responseObject.profiles[i].work + '.</p>';
+                    newContent += '</div>';
+
+                }
+                console.log(newContent);
+                document.getElementById('conteudo').innerHTML = newContent;
+            }
+        }
+
+        xhr.open('GET', 'json/datas.json', true);
+        xhr.send(null);
+
+    </script>
+</body>
+</html>
