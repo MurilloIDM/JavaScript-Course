@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novos elementos com DOM</title>
+</head>
+<body>
+    <div id="root">
+        <h1>Trabalhando com novos elementos (filhos: after e before)</h1>
+    </div>
+    
+    <script>
+
+        (() => {
+
+            const elementRoot = document.getElementById('root')
+
+            const novoParagrafo = document.createElement('p')
+            novoParagrafo.textContent = 'Estou aprendendo muito sobre o funcionamento do DOM'
+
+            console.log(novoParagrafo.outerHTML)
+
+            //Irmão anterior
+            elementRoot.insertAdjacentElement('beforebegin', novoParagrafo)
+
+            /*
+            Outras possibilidades:
+            'afterbegin': primeiro filho
+            'beforeend': último filho
+            'afterend': próximo irmão
+            */
+
+
+        })()
+
+    </script>
+</body>
+</html>
